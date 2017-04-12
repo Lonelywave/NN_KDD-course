@@ -5,7 +5,7 @@ for i in (Day1 to Day7)
 			(Day[i]_time[j]['y'] - Day[i]_time[j+1]['y']) > 50 or < 50 
 			count++
 
-	if count == len(Day[i]_time[j]) - 1 then 
+	if count == len(Day[i]_time) - 1 then # j when (Time 1 to 6) or (Time 7 to 12)
 		delete
 	else
 		countinue
