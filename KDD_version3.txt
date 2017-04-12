@@ -1,0 +1,11 @@
+# Pesudo code for version3
+for i in (Day1 to Day7)
+	for j in ((Time 1 to 6) or (Time 7 to 12))
+		if not self:
+			(Day[i]_time[j]['y'] - Day[i]_time[j+1]['y']) > 50 or < 50 
+			count++
+
+	if count == len(Day[i]_time[j]) - 1 then 
+		delete
+	else
+		countinue
